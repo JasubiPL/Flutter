@@ -4,7 +4,7 @@ void main(){
   wolverine.nombre = 'Logan';
   wolverine.poder = 'Regeneracion';
 
-  print( wolverine )
+  print( wolverine );
 }
 
 class Heroe{

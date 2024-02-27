@@ -1,9 +1,9 @@
 void main(){
   //String
   final String nombre = 'Tony';
-  final apellido = 'Stark'
+  final apellido = 'Stark';
 
-  nombre = 'Peter';
+  //nombre = 'Peter';
 
   print('$nombre $apellido');
 
@@ -17,9 +17,9 @@ void main(){
 
   List<int> numeros = [1,2,3,4,5,6,7,8,9,10];
   numeros.add(11);
-  print( numeros )
+  print( numeros );
   
-  final masNumeros = List.generate(100 (int index ) => index );
+  final masNumeros = List.generate(100, (int index ) => index );
   print(masNumeros);
 
   Map persona = {
@@ -31,7 +31,7 @@ void main(){
     2 : 500
   };
 
-  persona.addAll({ 'segundoNombre' : 'Juan' })
+  persona.addAll({ 'segundoNombre' : 'Juan' });
 
   Map<String, dynamic> persona2 = {
     'nombre' : 'Jasubi',
@@ -40,6 +40,6 @@ void main(){
   };
 
 
-  print( persona )
+  print( persona );
 
 }
