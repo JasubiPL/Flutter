@@ -41,8 +41,9 @@ class _CounterScreenState extends State<CounterScreen> {
         backgroundColor: Colors.teal,
         titleTextStyle: const TextStyle(color: Colors.white, fontSize: 25),
         centerTitle: true,
-        title: const Text('Jasubi Counter 🧑‍💻'),
-        elevation: 0,
+        leading: const ImageIcon( AssetImage('assets/img/icono.webp'), color: Colors.white),
+        title: const Text('Counter App'),
+        elevation: 20,
       ),
       body: Center(
         child: Column(
