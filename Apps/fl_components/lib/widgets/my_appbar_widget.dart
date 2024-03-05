@@ -13,8 +13,6 @@ import 'package:flutter/material.dart';
   @override
   Widget build(BuildContext context) {
     return  AppBar(
-      foregroundColor: Colors.white,
-      backgroundColor: Colors.cyan,
       centerTitle: true,
       title: Text(appBarTitle, style: const TextStyle(color: Colors.white),),
     );
